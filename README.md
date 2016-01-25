@@ -37,3 +37,7 @@ require('assert').deepStrictEqual(
     .sort(require('reviewers-edition-compare')),
   sorted)
 ```
+
+This package is bundled with other functions for
+creating and manipulating reviewers editions in
+[reved](https://www.npmjs.com/packages/reved).
