@@ -9,13 +9,13 @@ returns:
 
 [reved]: https://npmjs.com/packages/reviewers-edition-parse
 
-1. `-1` if the first argument is an earlier reviewers edition than the
-   second argument
+- `-1` if the first argument is an earlier reviewers edition than the
+  second argument
 
-2. `0` if the first argument is equal to the second argument
+- `0` if the first argument is equal to the second argument
 
-3. `1` if the first argument is a later reviewers edition than the
-   second argument
+- `1` if the first argument is a later reviewers edition than the
+  second argument
 
 This makes the function a suitable argument to `Array.prototype.sort`.
 
