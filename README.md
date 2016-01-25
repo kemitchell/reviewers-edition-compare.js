@@ -1,10 +1,5 @@
-This npm package exports a single argument comparison function.
-
-```javascript
-var compare = require('reviewers-edition-compare')
-```
-
-The function takes two [reviewers edition][reved] strings as inputs and
+This npm package exports a single argument comparison function. The
+function takes two [reviewers edition][reved] strings as inputs and
 returns:
 
 [reved]: https://npmjs.com/packages/reviewers-edition-parse
