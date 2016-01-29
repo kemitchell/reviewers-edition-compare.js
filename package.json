@@ -1,6 +1,6 @@
 {
   "name": "reviewers-edition-compare",
-  "description": "compare reviewers edition numbers",
+  "description": "compare Reviewers Edition numbers",
   "version": "1.0.3",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {

@@ -1,15 +1,15 @@
 This npm package exports a single argument comparison function. The
-function takes two [reviewers edition][reved] strings as inputs and
+function takes two [Reviewers Edition][reved] strings as inputs and
 returns:
 
 [reved]: https://npmjs.com/packages/reviewers-edition-parse
 
-- `-1` if the first argument is an earlier reviewers edition than the
+- `-1` if the first argument is an earlier Reviewers Edition than the
   second argument
 
 - `0` if the first argument is equal to the second argument
 
-- `1` if the first argument is a later reviewers edition than the
+- `1` if the first argument is a later Reviewers Edition than the
   second argument
 
 This makes the function a suitable argument to `Array.prototype.sort`.
@@ -17,7 +17,7 @@ This makes the function a suitable argument to `Array.prototype.sort`.
 The following demonstration is also the test suite for the parser, using
 Node.js' built-in `assert` module.
 
-Here is a list of reviewers edition strings in ascending order.
+Here is a list of Reviewers Edition strings in ascending order.
 
 ```javascript
 var sorted = [
@@ -39,5 +39,5 @@ require('assert').deepStrictEqual(
 ```
 
 This package is bundled with other functions for
-creating and manipulating reviewers editions in
+creating and manipulating Reviewers Editions in
 [reved](https://www.npmjs.com/packages/reved).
