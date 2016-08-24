@@ -25,7 +25,8 @@ var sorted = [
   '3e', '3e1c', '3e2c', '3e3c', '3e2u', '3e11u',
   '4e1d', '4e2d', '4e', '4e99c1d', '4e100c',
   '5e1c', '5e2c', '5e1u', '5e2u', '5e3u1d',
-  '1000e' ]
+  '1000e'
+]
 ```
 
 This test ensures that if we shuffle that list and resort it using the
@@ -34,8 +35,9 @@ comparison function, it ends up in sorted order again.
 ```javascript
 require('assert').deepStrictEqual(
   require('array-shuffle')(sorted)
-    .sort(require('reviewers-edition-compare')),
-  sorted)
+  .sort(require('reviewers-edition-compare')),
+  sorted
+)
 ```
 
 This package is bundled with other functions for
